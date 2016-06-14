@@ -1,7 +1,7 @@
 import { Application } from 'lux-framework';
 
-class MTo-n-relationship-jsonapi extends Application {
+class MToNrelationshipJsonapi extends Application {
 
 }
 
-export default MTo-n-relationship-jsonapi;
+export default MToNrelationshipJsonapi;
