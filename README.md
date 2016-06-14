@@ -1,8 +1,14 @@
 # m-to-n-relationship-jsonapi
 
+Just a simple many to many relationship using [Lux] & JSON API
+
+#### Rules
+* Many `Rooms` have and belong to many `Guests`
+* (Using `Booking` as the join table/logic)
+
 ## Installation
 
-* `git clone https://github.com/<this-repository>`
+* `git clone`
 * `cd m-to-n-relationship-jsonapi`
 * `npm install`
 
@@ -13,6 +19,10 @@
 ## Testing
 
 * `lux test`
+
+## Using
+
+* [Faker](https://github.com/marak/Faker.js/) for DB seeding
 
 ## Further Reading / Useful Links
 * [Lux](https://github.com/postlight/lux/)
