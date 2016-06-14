@@ -1,11 +1,7 @@
 import { Serializer } from 'lux-framework';
 
 class RoomsSerializer extends Serializer {
-  attributes = [
-    'number'
-  ];
-
-  hasMany = [
+      hasMany = [
     'guests'
   ];
 }

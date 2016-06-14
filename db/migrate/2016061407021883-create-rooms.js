@@ -1,7 +1,7 @@
 export function up(schema) {
   return schema.createTable('rooms', table => {
     table.increments('id');
-    table.string('number');
+
     table.timestamps();
 
     table.index([
