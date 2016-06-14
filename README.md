@@ -1,9 +1,10 @@
 # m-to-n-relationship-jsonapi
 
-Just a simple many to many relationship using [Lux] & JSON API
+Just a simple reference of a many to many relationship using [Lux](https://github.com/postlight/lux/) & JSON API
 
 #### Rules
 * Many `Rooms` have and belong to many `Guests`
+* Many `Guests` have and belong to many `Rooms`
 * (Using `Booking` as the join table/logic)
 
 ## Installation
